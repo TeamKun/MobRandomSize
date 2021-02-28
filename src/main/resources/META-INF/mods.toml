@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/TeamKun/MobRandomSize/issues"
+
+[[mods]]
+modId="mobrandomsize"
+version="${file.jarVersion}"
+displayName="MobRandomSize"
+displayURL="https://github.com/TeamKun/MobRandomSize/"
+logoFile="logo.png"
+credits="Kamesuta"
+authors="Kamesuta"
+description='''
+Mob Random Size.
+'''
+[[dependencies.mobrandomsize]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mobrandomsize]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
